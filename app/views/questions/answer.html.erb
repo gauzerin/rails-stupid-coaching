@@ -1,0 +1,13 @@
+<h1>Stupid Coaching</h1>
+<p>Find me in app/views/questions/answer.html.erb</p>
+
+
+<div class="questions">
+  <blockquote><%= @answer  %></blockquote>
+</div>
+
+<div class="answers">
+  <blockquote><%= @coach %>
+    <%= simple_format("- Your coach")  %></blockquote></div>
+
+<%= link_to "Ask a new queston", question_path %>
